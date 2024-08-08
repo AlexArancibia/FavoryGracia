@@ -1,5 +1,5 @@
 import React from 'react';
-import DarFondo from '../assets/portada.png';
+import DarFondo from '../assets/Sin título-1Mesa de trabajo 3.jpg';
 import Yape from '../assets/yape.png';
 
 import QR from '../assets/qr2.png';
@@ -44,7 +44,7 @@ function Dar() {
             <img 
                 src={Yape} 
                 alt="Yape"
-                className="h-[40px] w-fit object-cover rounded-md"
+                className="h-[80px] w-fit object-cover rounded-md"
                 />
 
         </div>

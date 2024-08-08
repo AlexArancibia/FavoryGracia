@@ -1,7 +1,7 @@
 import React from 'react'
 import EscribenosFondo from '../assets/RECURSOSMesa-de-trabajo-4.png'
-import EscribenosFondo2 from '../assets/RECURSOSMesa-de-trabajo-1.png'
-import EscribenosImg  from '../assets/involucrate5.png'
+import EscribenosFondo2 from '../assets/Sin título-1Mesa de trabajo 1.jpg'
+import EscribenosImg  from '../assets/Sin título-1Mesa de trabajo 2.jpg'
 import CasaDePaz  from '../assets/casadepaz.png'
 import QRCasaPaz  from '../assets/qr.png'
 import { FormularioCompleto, FormularioOracion } from './Formularios'
@@ -42,7 +42,7 @@ function Escribenos() {
       <img 
       src={EscribenosImg} 
       alt="Escribenos"
-      className="h-[600px] w-full object-cover rounded-md"
+      className="h-[600px] w-full object-cover rounded-md object-bottom"
     />
       </div>
 
@@ -81,7 +81,7 @@ function Escribenos() {
           </h1>
           <hr className='border-t-[4px] w-[100px] border-y-orange-500 mb-4' />
           <h1 className='text-orange-500 text-xl md:text-lxl lg:text-xl xl:text-2xl   font-semibold '> 
-           @favorygraciachurch
+           <a href='https://www.instagram.com/favorygraciachurch/' target='_blank'>@favorygraciachurch</a>
           </h1>
           <h2 className='text-white font-extralight text-end tracking-wider'>Siguenos y no te pierdas los anuncios de los eventos que tenemos, tambien puedes utilizarla para comunicarte con nosotros <strong>¡Estaremos atentos!</strong></h2>
           <div className="w-full justify-end flex flex-row flex-grow flex-wrap lg:gap-7 md:gap-4 gap-2 items-center text-white">
