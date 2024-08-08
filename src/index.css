@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .responsive-container {
+    @apply px-6 py-8 md:px-8 md:py-16 lg:px-16 lg:py-24 flex m-0;
+  }
+  .hero-section {
+    @apply px-6 py-4 md:px-8 md:py-4 lg:px-16 lg:py-4 flex m-0;
+  }
+  .texto {
+    @apply text-sm lg:text-base font-normal;
+  }
+  .titulo {
+    @apply lg:text-2xl xl:text-3xl text-xl font-bold tracking-widest;
+  }
+  .primary-color {
+    @apply text-orange-400;
+  }
+  .secondary-color {
+    @apply text-blue-950;
+  }
+  .accent {
+    @apply text-orange-500;
+  }
+
+}
+ 
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+ 
