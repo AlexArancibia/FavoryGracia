@@ -2,6 +2,8 @@
 
 This website is created for Favor y Gracia Church, featuring sections to present church information, events, and ways to get involved.
 
+![Preview](https://raw.githubusercontent.com/AlexArancibia/FavoryGracia/master/src/assets/fygportada.png)
+
 ## Features
 
 - **Hero Section**: Eye-catching introduction with a background image.
